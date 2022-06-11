@@ -1,0 +1,61 @@
+#page1 ol {
+    width: 181px;
+    margin: -7px auto;
+}
+
+#page1::before {
+    height: 106%;
+    width: 106%;
+}
+
+.vid_back {
+    height: 92vh;
+    width: 92vw;
+}
+
+body{
+    overflow: hidden;
+}
+
+#page1 h1{
+    font-size: 2rem;
+}
+
+#close {
+    left: 106px;
+    top: -902px;
+
+    
+}
+
+#cv {
+    height: 80vh;
+    margin: -878px 149px;
+}
+
+.project {
+    height: 30vh;
+    width: 30vh;
+}
+
+.project {
+    height: 18vh;
+    width: 18vh;
+}
+
+
+#page4 {
+    margin: -197px auto;
+    padding: 0px 0px;
+    width: 80vw;
+    text-align: center;
+    width: 89%;
+}
+
+#download{
+    margin: -26px 0px;
+}
+
+#submit_btn{
+    width: 29vw;
+}

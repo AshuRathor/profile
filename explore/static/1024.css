@@ -1,0 +1,24 @@
+#page1 ol h2 {
+    width: 23vw;
+    left: 0;
+    margin: auto;
+}
+
+
+#page1 ol {
+    margin: 17px auto;
+}
+#page1 h1{
+    font-size: 2rem;
+}
+
+#close {
+    top: 66px;
+    left: 0px;
+}
+
+#cv {
+    /* height: 66vh; */
+    margin: -523px 322px;
+    height: 63vh;
+}

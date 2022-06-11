@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Explore</title>
+//- link(rel="stylesheet", href="../static/styles.css")
+<link rel="stylesheet" href="../static/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" media="(min-width: 770px) and (max-width: 1298px)" href="../static/1024.css">
+	<link rel="stylesheet" media="(min-width: 423px) and (max-width: 769px)" href="../static/768.css">
+	<link rel="stylesheet" media="(min-width: 0px) and (max-width: 422px)" href="../static/320.css">
+</head>
+<body>
+	<video class="vid_back" autoplay muted loop>
+		<source src="../static/Website_back_compress.mp4" type="video/mp4">
+	</video>
+	<div class="container">
+		<div class="background" id="page1">
+			<h1>Welcome to the Exploration Tab</h1>
+			<ol>
+				<h2>Index</h2>
+				<li id="l1_li"> CV</li>
+				<div class="after_li" id="l1"></div>				
+				<li id="l2_li"> Projects</li>
+				<div class="after_li" id="l2"></div>
+				<a id="l3_li_a" href="https://www.linkedin.com/in/ayush-rathor/" target="_blank">
+					<li id="l3_li"> Education</li>
+
+				</a>
+				<div class="after_li" id="l3"></div>
+				<li id="l4_li"> Contact</li>
+				<div class="after_li" id="l4"></div>
+			</ol>
+		</div>
+		<div id="page2">
+			<img id="cv" src="../static/CV_image_portfolio_update.png" alt="CV">
+			<img id="close" src="../static/close_icon.svg" alt="close">
+			<a target="_blank" href="https://drive.google.com/file/d/1jftq-mYIP9NiztZX6Oyj1iEcHGqo0s-g/view?usp=sharing">
+				<button id="download">View</button>
+			</a>
+		</div>
+		<div id="page3">
+			<img src="../static/images/Project_web.png" alt="Error" id="web" class="project">
+			<img src="../static/images/Project_graphic.png" alt="Error" id="graphic" class="project">
+		</div>
+		<div>
+			<form action="/contact" method="post"  id="page4">
+				<h1>Contact Form</h1>
+				<input type="text" name="Name" placeholder="Enter your name" class="contact_form" id="name">
+				<input type="tel" name="Phone" placeholder="Enter your Telephone Number" class="contact_form" id="phone">
+				<input type="email" name="Email" placeholder="Enter your email address" class="contact_form" id="email">
+				<input type="text" name="Message" placeholder="Enter your text here" class="contact_form" id="msg">
+				<button id="submit_btn">Submit</button>
+				
+			</form>
+		</div>
+	</div>
+	<script src="../static/script.js"></script>
+</body>
+</html>
