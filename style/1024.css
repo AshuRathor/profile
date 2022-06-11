@@ -1,0 +1,13 @@
+.page1_para {
+    width: 22%;
+    /* border: 2px solid; */
+}
+
+#page2::before {
+    height: 113%;
+}
+
+#page3 {
+    justify-content: center;
+    margin: 963px 0px;
+}

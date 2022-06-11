@@ -1,0 +1,134 @@
+.page1_para {
+    width: 100%;
+    /* border: 2px solid; */
+    text-align: center;
+    justify-content: center;
+    height: 32vh;
+    font-size: 0.8em;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page1_para::before {
+    height: 0;
+    width: 0;
+    
+}
+#prf {
+    height: 20em;
+    padding: 15px 20px;
+    height: 6em;
+    /* border: 2px solid; */
+    margin: auto;
+    height: 8em;
+}
+
+#page1_btns {
+    /* margin: auto; */
+    /* border: 2px solid; */
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+#pg2_down {
+    margin: -46px 0;
+    justify-content: center;
+    /* border: 2px solid; */
+    width: 100%;
+}
+#page1_btns button {
+    margin: 6px 35px;
+    padding: 6px 36px;
+}
+
+header::before {
+    background: url(/img/v748-toon-103.jpg) repeat center center/cover;
+}
+
+#page2::before {
+    height: 113%;
+}
+.nav_back{
+    background-color: #222;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    opacity: 0.9;
+    /* display: none; */
+    transition: all 0.3s ease-out;
+}
+
+#nav li a {
+    z-index: 3;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid; */
+    /* margin: 36px 0px; */
+    margin: 46px -129px;
+    /* padding: 15px 0px; */
+    /* position: fixed; */
+    /* border: 2px solid; */
+    padding: 26px 136px;
+}
+
+#nav{
+    /* display: none; */
+    /* width: 100%; */
+    position: fixed;
+    /* border: 2px solid; */
+    text-align: center;
+
+    z-index: 3;
+}
+.menu_close{
+    background: url('/img/menu_white.svg') no-repeat center center/cover;
+    width: 8vh;
+    height: 8vh;
+    background-color: #222;
+    border: none;
+    border-radius: 8vh;
+    background-size: 4vh;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 4;
+}
+
+
+#nav li a::after {
+    background-color: white;
+}
+.show_hide{
+    transform: translate(-110%, 0%);
+}
+
+#nav li{
+    transition: all 0.3s ease-out;
+
+}
+
+.menu_close_click{
+
+    background: url('/img/close_white.svg') no-repeat center center/cover;
+    width: 8vh;
+    height: 8vh;
+    background-color: #222;
+    border: none;
+    border-radius: 8vh;
+    background-size: 4vh;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 4;
+
+}
+
+#page2 p{
+    font-size: 0.8em;
+}
+#page3 {
+    margin: 444px 0px;
+}

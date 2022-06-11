@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+}
+.flx_wrp{
+    flex-wrap: wrap;
+}
+.lst_style_none{
+    list-style: none;
+}
+.border_en{
+    border: 2px solid;
+}
+.flx_clm{
+    flex-direction: column;
+}
+.just_center{
+    justify-content: center;
+}

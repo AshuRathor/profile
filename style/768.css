@@ -1,0 +1,50 @@
+.page1_para {
+    width: 100%;
+    /* border: 2px solid; */
+    text-align: center;
+    justify-content: center;
+    height: 12vh;
+    font-size: 0.8em;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page1_para::before {
+    height: 0;
+    width: 0;
+    
+}
+#prf {
+    height: 20em;
+    padding: 24px 131px;
+    height: 10em;
+    /* border: 2px solid; */
+    margin: auto;
+}
+
+#page1_btns {
+    /* margin: auto; */
+    /* border: 2px solid; */
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+#pg2_down {
+    margin: -46px 40%;
+}
+
+#page1_btns button {
+    margin: 0px 35px;
+    padding: 7px 47px;
+}
+
+header::before {
+    background: url(/img/v748-toon-103.jpg) repeat center center/cover;
+}
+
+#page2::before {
+   height: 113%;
+}
+#page3 {
+    margin: 755px 0px;
+}
