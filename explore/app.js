@@ -1,6 +1,7 @@
 const express = require("express")
 const path = require("path")
 const app = express()
+const hostname = 0.0.0.0
 // const fs = require("fs")
 var mongooose = require("mongoose")
 const bodyparser = require("body-parser")
